@@ -1,0 +1,17 @@
+.customInputWrpr {
+  margin-bottom: 25px;
+  position: relative;
+  width: 100%;
+}
+
+.customInputWrpr .errMsg {
+  font-size: 10px;
+  color: red;
+  margin: 0;
+  position: absolute;
+  bottom: -17px;
+}
+
+.customInputWrpr .MuiFormControl-root {
+  width: 100%;
+}

@@ -1,0 +1,29 @@
+.btnWrpr button {
+  width: 100%;
+  height: 45px;
+  border-radius: 100px;
+  padding: 7px 20px;
+  text-transform: initial;
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+}
+
+.btnWrpr button.small {
+  width: 100%;
+  height: 40px;
+  border-radius: 17px;
+}
+
+.btnWrpr.primButton button {
+  background: var(--primaryColor);
+  color: white;
+}
+
+.btnWrpr.secButton button {
+  border: 1px solid var(--primaryColor);
+  color: var(--primaryColor);
+  background: transparent;
+}
+.btnWrpr.secButton button:hover {
+  background: white;
+}

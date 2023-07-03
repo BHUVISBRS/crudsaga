@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+
+}
+
+body {
+  background-color: white;
+}
+
+/*  */
+/* .container { */
+/*  */
+/* display: flex; */
+/* justify-content: center; */
+/* align-items: center; */
+/* gap: 10px; */
+/* padding-top: 30px; */
+/* font-size: larger; */
+/* text-decoration: none; */
+/* color: #ffff; */
+/*  */
+/* } */
+
+
+.h1 {
+  color: white;
+  font-family: var(--tp-ff-heading);
+
+}
+
+.betton {
+
+  background-color: #fcff46;
+  border: none;
+  color: white;
+  margin-left: 500px;
+}
+
+.tablecontainer {
+  width: 600px;
+  margin-left: 300px;
+  margin-top: 150px;
+  background-color: white;
+}
+
+.table th {
+  text-align: left;
+  background-color: #ff467e;
+  color: white;
+
+}
+
+
+.table td,
+th {
+
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+
+
+.tablebutton {
+  background-color: #ff467e;
+  ;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  gap: 10px;
+
+}
+
+.edit {
+
+  color: white;
+  background-color: #ff467e;
+  border-radius: 10px;
+  width: 30px;
+  padding: 5px;
+
+}
